@@ -57,4 +57,4 @@ if chance == 0:
 
 #Import stages from hangman.py and make this wrror go away.
 from hangman import level
- 
+print(level[chance])

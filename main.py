@@ -1,5 +1,63 @@
 import random
 
+stages = ['''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+''', '''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========
+''']
+
+
 select_list = ["aardvark", "baboon", "camel"]
 myword = random.choice(select_list)
 
@@ -25,8 +83,16 @@ while not game_finish:
         if letter == guess:
             appear_as[position] = letter
 
-    print(appear_as)
-
-    if "_" not in appear_as:
+if guess not in myword:
+    survive -= 1
+    if survive == 0:
         game_finish = True
-        print("You win.")
+        print("You lose.")
+
+
+print(f"{' ' .join(appear_as)}")
+print(appear_as)
+
+if "_" not in appear_as:
+    game_finish = True
+    print("You win.")

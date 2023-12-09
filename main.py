@@ -13,3 +13,9 @@ chances = 6
 
 # Logo imported from hangman files
 print(logo)
+
+
+# Create blanks
+appear_as = []
+for _ in range(word_length):
+    display += "_"

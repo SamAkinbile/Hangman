@@ -1,4 +1,4 @@
-word_list = [
+guess_word = [
     'abruptly',
     'absurd',
     'abyss',

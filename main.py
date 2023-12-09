@@ -14,9 +14,11 @@ for _ in range(word_length):
     # TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
 guess = input("Guess a letter: ").lower()
 
+
+
 # Check if the letter the user guessed (guess) is one of the leters in the chosen_word.
-for letter in myword:
+for position in range(word_length): 
+    alphabet = myword[position]
     if letter == guess:
-        print("Right")
-    else:
-        print("Wrong")
+        dispay[position] = letter
+ print(display)

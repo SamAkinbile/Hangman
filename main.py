@@ -54,4 +54,7 @@ if chance == 0:
  if "_" not in appear_as:
     game_finish = True
     print("You win.")
-    
+
+#Import stages from hangman.py and make this wrror go away.
+from hangman import level
+ 

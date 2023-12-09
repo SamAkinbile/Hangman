@@ -28,10 +28,16 @@ while not game_finish:
 if trial_guess in appear_as:
     print(f"You have already guessed {trial_guess}")
 
-#To check the guessed letter
+# To check the guessed letter
 
 for position in range(word_length):
     letter = myword[position]
-
+   # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
     if letter == guess:
         appear_as[position] = letter
+
+# We check if the user answer are wrong
+if trial_guess not in myword:
+    # If type letter is not in myword, print out the letter and let them know it's not in the word.
+    print(
+        f"You guessed {trial_guess}, that's not in the word. You lose a single life.")

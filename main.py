@@ -36,7 +36,7 @@ for position in range(word_length):
     if letter == guess:
         appear_as[position] = letter
 
-# We check if the user answer are wrong
+# We check if the player answer are wrong
 if trial_guess not in myword:
     # If type letter is not in myword, print out the letter and let them know it's not in the word.
     print(
@@ -49,3 +49,9 @@ if chance == 0:
 
 # Joining element in the list and turning it to the string
  print(f"{' '.join(display)}")
+
+ # see if the player has all the right alphabet guessed?
+ if "_" not in appear_as:
+    game_finish = True
+    print("You win.")
+    

@@ -2,8 +2,6 @@ import random
 
 
 select_list = ["aardvark", "baboon", "camel"]
-
-# TODO-1 - Randomly choose a word from the word_list and assign it to a variable called chosen_word.
 myword = random.choice(select_list)
 
 print(f'Psst, the solution is {myword}.')
@@ -12,8 +10,8 @@ word_length = len(myword)
 for _ in range(word_length):
     appear_as += "_"
     print(appear_as)
-
-    # TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
+while not game_finish
+# TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
 guess = input("Guess a letter: ").lower()
 
 
@@ -24,3 +22,6 @@ for position in range(word_length):
         appear_as[position] = letter
 
 print(appear_as)
+if "_" not in display:
+    game_finish = True
+    print("You win.")

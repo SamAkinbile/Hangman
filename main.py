@@ -48,3 +48,4 @@ if chance == 0:
     print("You lose.")
 
 # Joining element in the list and turning it to the string
+ print(f"{' '.join(display)}")

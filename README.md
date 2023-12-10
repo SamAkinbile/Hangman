@@ -20,6 +20,7 @@ Hangman is a word-guessing game that is often played between two people. One per
 
 
   ## How hangman game works
+  
 ![FlowChart](images/Webcapture_10-12-2023_151757_.jpeg)
 
 

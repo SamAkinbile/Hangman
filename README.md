@@ -16,13 +16,13 @@ Hangman is a word-guessing game that is often played between two people. One per
 
 - If the suggested letter is not in the word, a part of the hangman is drawn. This could be the head, body, arms, legs, etc.
 
-The game continues with the guess
+- The game continues with the guess...
 
 
-
-  
   ## How hangman game works
 ![FlowChart](images/Webcapture_10-12-2023_151757_.jpeg)
+
+
 
 ### Target Audience
 

@@ -1,4 +1,4 @@
-from workspaces PYTHON/main.py import clear
+import os
 from hangman_guess import guess_word
 from hangman import levels
 from hangman import logo
@@ -20,7 +20,8 @@ for _ in range(word_length):
 
 while not game_finish:
     trial_guess = input("Guess a letter:").lower()
-    clear()
+
+    os.system('cls' if os.name == 'nt' else 'clear')
 
     # If letter has already been guessed, print out the letter and let the player know
     if trial_guess in appear_as:

@@ -2,12 +2,8 @@
 
 ![Hangman](images/hangmanimage.jpeg)
 
-- **Hangman Game**
-  
-![FlowChart](images/Webcapture_10-12-2023_151757_.jpeg)
 
-## How hangman game works
-
+### What is Hangman game?
 Hangman is a word-guessing game that is often played between two people. One person thinks of a word and draws a blank line for each letter in the word. The other person tries to guess the word by suggesting letters. For each incorrect guess, a part of a stick figure (representing a "hangman") is drawn. The goal is to guess the word before the hangman is fully drawn.
 
 ## The game typically follows these steps:
@@ -22,6 +18,11 @@ Hangman is a word-guessing game that is often played between two people. One per
 
 The game continues with the guess
 
+
+
+  
+  ## How hangman game works
+![FlowChart](images/Webcapture_10-12-2023_151757_.jpeg)
 
 ### Target Audience
 

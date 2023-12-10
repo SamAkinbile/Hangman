@@ -1,39 +1,54 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# HANGMAN: Game of thinking
 
-Welcome,
+![Hangman](images/hangmanimage.jpeg)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+- **Hangman Game**
+  
+![FlowChart](images/Webcapture_10-12-2023_151757_.jpeg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## How hangman game works
 
-## Codeanywhere Reminders
+Hangman is a word-guessing game that is often played between two people. One person thinks of a word and draws a blank line for each letter in the word. The other person tries to guess the word by suggesting letters. For each incorrect guess, a part of a stick figure (representing a "hangman") is drawn. The goal is to guess the word before the hangman is fully drawn.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## The game typically follows these steps:
 
-`python3 -m http.server`
+- The word-chooser(random) thinks of a word and draws a blank line for each letter in the word. The blanks are usually represented by underscores.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- The guesser suggests a letter.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- If the suggested letter is in the word, the word-chooser fills in all instances of that letter in the blanks.
 
-`http_server`
+- If the suggested letter is not in the word, a part of the hangman is drawn. This could be the head, body, arms, legs, etc.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The game continues with the guess
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Target Audience
 
-To log into the Heroku toolbelt CLI:
+Educational word game for all ages, fostering language and social interaction.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
----
+## Technologies Used
 
-Happy coding!
+**Github** - Used for storage of my site and for publishing online.\
+**Codeanywhere** - The IDE used for editing my site and pushing changes.\
+**Python**-The logic behind adding, subtract, and multiply.
+**Googledrive** - Present the flowchart
+
+## Deployment
+
+I deployed my websites which includes all pages. The site was deployed to GitHub pages.
+
+- The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://samakinbile.github.io/Hangman/
+
+## Credits
+- [Codeinstitute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecomm)
+
+#### Content
+- The ascii use in this project was provided by [ascii art](https://ascii.co.uk/art)

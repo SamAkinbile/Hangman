@@ -38,7 +38,7 @@ while not game_finish:
     if trial_guess not in myword:
         # If the guessed letter is not in myword, print out the letter and let them know it's not in the word.
         print(
-            f"You guessed {trial_guess}, that's not in the word. You lose a single life.")
+            f"You guessed {trial_guess}, that's not in the word.  You lose a single life. Try again!")
         chance -= 1
         if chance == 0:
             game_finish = True

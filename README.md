@@ -150,23 +150,14 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
-### Code
+### Media
 
-- The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
-- [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
-- [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
-
+- Hangman logo  [ascii ](https://ascii.co.uk)
+- guess_word [chatgpt](https://openai.com/)
+ 
 ### Content
 
 - All content was written by the developer.
-
-- Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
-### Media
-
-- All Images were created by the developer.
 
 ### Acknowledgements
 

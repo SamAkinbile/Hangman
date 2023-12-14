@@ -28,26 +28,20 @@ The player makes guesses from the alphabet.
 If the guessed letter is part of the word reveall in the "(_)" spaces. The player does not lose any life. and player continue playing.
 
 4. **Incorrect Guesses;**
-If the guessed letter is not present in the spaces revealed "(_)" it as a guess. The player loses a life, untill the player get hanged.
+If the guessed letter is not present in the spaces revealed "(_)" . The player loses a life.
+It also keep track of a letter that is alraedy guessed "You have alraedy guessed a letter"
 Keep track of a guess counter.
 
-1. **Hangman Drawing;**
-Draw parts of a "hangman" illustration for each guess made.
-When reaching the allowed guesses terminate the game.
 
-1. **Victory Condition;**
-If all letters are correctly guessed before reaching or exceeding the number of guesses declare victory, for the player.
+5. **Victory Condition;**
+If all letters are correctly guessed before reaching or exceeding the number of guesses. You win!
 
-1. **Defeat Condition;**If the player reaches the number of guesses before guessing the word they will lose.
+6. **Defeat Condition;**
+   If the player reaches the number of guesses before guessing the word or already guessed the leter. It will print  "You have alraedy guessed a letter, You lose"
 
-2. **End of Game;**
-Conclude the game by displaying a message indicating either victory or defeat.
-Optionally reveal the word.
-
-1. **Starting a New Round;**
+7. **Starting a New Round;**
 Initiate a round where the computer chooses a word.
 
-This variation keeps the core essence of Hangman intact but shifts the responsibility of selecting words to the computer. The players objective remains to guess the word, with incorrect attempts, as possible.
 
   - #### Returning Visitor Goals
 

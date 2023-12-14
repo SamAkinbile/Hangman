@@ -10,50 +10,41 @@ Uncover the word by guessing letters testing your deductive abilities in an exci
 
 - ### User stories
 
-  - #### First Time Visitor Goals
+  - ####First Time Visitor Goals
 
        [hangman flowchart](hangmanimages/Webcapture_flowchart_.jpeg)
        
    
 
-1. **Setup;**
-The computer randomly picks a word from a guessed_word.
-Determine the maximum number of guesses (life) allowed. You have a chance of 6 lifes
+#### Setup
+- The computer randomly picks a word from a guessed_word.
+- Determine the maximum number of guesses (life) allowed. You have a chance of 6 lifes
 
-2. **Displaying the Word;**
+#### Displaying the Word
 Display spaces "-" to represent each letter in the chosen word.
 
-3. **Guessing Letters;**
-The player makes guesses from the alphabet.
-If the guessed letter is part of the word reveall in the "(_)" spaces. The player does not lose any life. and player continue playing.
+#### Guessing Letters
+- The player makes guesses from the alphabet.
+- If the guessed letter is part of the word reveall in the "(_)" spaces. The player does not lose any life. The player continue playing.
 
-4. **Incorrect Guesses;**
-If the guessed letter is not present in the spaces revealed "(_)" . The player loses a life.
-It also keep track of a letter that is alraedy guessed "You have alraedy guessed a letter"
-Keep track of a guess counter.
+4. #### Incorrect Guesses
+- If the guessed letter is not present in the spaces revealed "(_)" . The player loses a life.
+- It also keep track of a letter that is alraedy guessed "You have alraedy guessed a letter"
+- Keep track of a guess counter.
 
 
-5. **Victory Condition;**
-If all letters are correctly guessed before reaching or exceeding the number of guesses. You win!
+ #### Victory Condition
+- If all letters are correctly guessed before reaching or exceeding the number of guesses. You win!
 
-6. **Defeat Condition;**
-   If the player reaches the number of guesses before guessing the word or already guessed the leter. It will print  "You have alraedy guessed a letter, You lose"
+#### Defeat Condition
+- If the player reaches the number of guesses before guessing the word or already guessed the leter. It will print  "You have alraedy guessed a letter, You lose"
 
-7. **Starting a New Round;**
-Initiate a round where the computer chooses a word.
+#### Starting a New Round 
+- Initiate a round where the computer chooses a word.
 
 
   - #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
-
-  - #### Frequent User Goals
-
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 - ### Design
   - #### Colour Scheme

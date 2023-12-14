@@ -1,8 +1,8 @@
-<h1 align="center">Code Institute Website</h1>
+<h1 align="center">Hangman Game: Game of guess</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[Hangman game.](hangmanimages/hangmanprofile.jpeg)
 
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
+Uncover the word by guessing letters testing your deductive abilities in an exciting and suspenseful game.
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
@@ -12,9 +12,42 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
   - #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+       [hangman flowchart](hangmanimages/Webcapture_flowchart_.jpeg)
+       
+   
+
+1. **Setup;**
+The computer randomly picks a word from a guessed_word.
+Determine the maximum number of guesses (life) allowed. You have a chance of 6 lifes
+
+1. **Displaying the Word;**
+Display spaces to represent each letter in the chosen word.
+
+1. **Guessing Letters;**
+The player makes guesses by selecting letters from the alphabet.
+If the guessed letter is part of the word reveal all occurrences in their positions.
+
+1. **Incorrect Guesses;**
+If the guessed letter is not present in the word mark it as a guess.
+Keep track of a guess counter.
+
+1. **Hangman Drawing;**
+Draw parts of a "hangman" illustration for each guess made.
+When reaching the allowed guesses terminate the game.
+
+1. **Victory Condition;**
+If all letters are correctly guessed before reaching or exceeding the number of guesses declare victory, for the player.
+
+1. **Defeat Condition;**If the player reaches the number of guesses before guessing the word they will lose.
+
+2. **End of Game;**
+Conclude the game by displaying a message indicating either victory or defeat.
+Optionally reveal the word.
+
+1. **Starting a New Round;**
+Initiate a round where the computer chooses a word.
+
+This variation keeps the core essence of Hangman intact but shifts the responsibility of selecting words to the computer. The players objective remains to guess the word, with incorrect attempts, as possible.
 
   - #### Returning Visitor Goals
 

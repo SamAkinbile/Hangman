@@ -20,15 +20,15 @@ Uncover the word by guessing letters testing your deductive abilities in an exci
 The computer randomly picks a word from a guessed_word.
 Determine the maximum number of guesses (life) allowed. You have a chance of 6 lifes
 
-1. **Displaying the Word;**
-Display spaces to represent each letter in the chosen word.
+2. **Displaying the Word;**
+Display spaces "-" to represent each letter in the chosen word.
 
-1. **Guessing Letters;**
-The player makes guesses by selecting letters from the alphabet.
-If the guessed letter is part of the word reveal all occurrences in their positions.
+3. **Guessing Letters;**
+The player makes guesses from the alphabet.
+If the guessed letter is part of the word reveall in the "(_)" spaces. The player does not lose any life. and player continue playing.
 
-1. **Incorrect Guesses;**
-If the guessed letter is not present in the word mark it as a guess.
+4. **Incorrect Guesses;**
+If the guessed letter is not present in the spaces revealed "(_)" it as a guess. The player loses a life, untill the player get hanged.
 Keep track of a guess counter.
 
 1. **Hangman Drawing;**

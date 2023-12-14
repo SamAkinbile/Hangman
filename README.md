@@ -6,7 +6,7 @@
 
 - Uncover the word by guessing letters testing your deductive abilities in an exciting and suspenseful game.
 
-<h2 align="center">User Experience (UX)</h2>
+<h2 align="center">What to expect</h2>
 
 <p align="center">
 <img src="hangmanimages/Webcapture_flowchart_.jpeg" />

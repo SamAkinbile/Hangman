@@ -1,20 +1,18 @@
 <h1 align="center">Hangman Game: Game of guess</h1>
 
-[Hangman game.](hangmanimages/hangmanprofile.jpeg)
+<p align="center"> ![Hangman game](hangmanimages/hangmanprofile.jpeg)</p>
+
+
 
 Uncover the word by guessing letters testing your deductive abilities in an exciting and suspenseful game.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center">User Experience (UX)</h2>
 
-## User Experience (UX)
 
-- ### User stories
+![Hangman Flowchart](hangmanimages/Webcapture_flowchart_.jpeg)
 
-  - ####First Time Visitor Goals
-
-       [hangman flowchart](hangmanimages/Webcapture_flowchart_.jpeg)
        
-   
+ #### First Time Visitor Goals
 
 #### Setup
 - The computer randomly picks a word from a guessed_word.
@@ -27,7 +25,7 @@ Display spaces "-" to represent each letter in the chosen word.
 - The player makes guesses from the alphabet.
 - If the guessed letter is part of the word reveall in the "(_)" spaces. The player does not lose any life. The player continue playing.
 
-4. #### Incorrect Guesses
+#### Incorrect Guesses
 - If the guessed letter is not present in the spaces revealed "(_)" . The player loses a life.
 - It also keep track of a letter that is alraedy guessed "You have alraedy guessed a letter"
 - Keep track of a guess counter.

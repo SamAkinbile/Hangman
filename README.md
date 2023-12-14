@@ -1,15 +1,16 @@
 <h1 align="center">Hangman Game: Game of guess</h1>
 
-<p align="center"> ![Hangman game](hangmanimages/hangmanprofile.jpeg)</p>
-
-
+<p align="center">
+<img src="hangmanimages/hangmanprofile.jpeg" />
+</p>
 
 Uncover the word by guessing letters testing your deductive abilities in an exciting and suspenseful game.
 
 <h2 align="center">User Experience (UX)</h2>
 
-
-![Hangman Flowchart](hangmanimages/Webcapture_flowchart_.jpeg)
+<p align="center">
+<img src="hangmanimages/Webcapture_flowchart_.jpeg" />
+</p>
 
        
  #### First Time Visitor Goals

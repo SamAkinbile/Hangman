@@ -23,26 +23,26 @@ while not game_finish:
 
     os.system('cls' if os.name == 'nt' else 'clear')
 
-# print already guessed letter.
+    # If letter has already been guessed, print out the letter and let the player know
     if trial_guess in appear_as:
         print(f"You have already guessed {trial_guess}")
 
     # To check the guessed letter
     for position in range(word_length):
         letter = myword[position]
-
-# print(f"Current position: {position}\n Current letter.
+        # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {trial_guess}")
         if letter == trial_guess:
             appear_as[position] = letter
-# We check if the player's answer is wrong
-if trial_guess not in myword:
-    # Let the player know if alphabet not in guessed_list
-    print(
-        f"You guessed {trial_guess}, that's not in the word.You lose a life.")
-    chance -= 1
-    if chance == 0:
-        game_finish = True
-        print("You lose.")
+
+    # We check if the player's answer is wrong
+    if trial_guess not in myword:
+        # If the guessed letter is not in myword, print out the letter and let them know it's not in the word.
+        print(
+            f"You guessed {trial_guess}, that's not in the word. You lose a single life.")
+        chance -= 1
+        if chance == 0:
+            game_finish = True
+            print("You lose.")
 
     # Joining elements in the list and turning it into a string
     print(f"{' '.join(appear_as)}")

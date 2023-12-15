@@ -127,9 +127,6 @@ The live link can be found here - https://samakinbile.github.io/Hangman/
 - Hangman logo  [ascii ](https://ascii.co.uk)
 - Guess word list [chatgpt](https://openai.com/)
  
-### Content
-
-- All content was written by the developer.
 
 ### Acknowledgements
 

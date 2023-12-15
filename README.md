@@ -91,6 +91,8 @@ Display spaces "(_)" to represent each letter in the chosen word.
 
 - Pass the code through a PEP8 linter and confirmed: All clear, no errors found
 - I test on my local terminal.
+  
+  
 ### Remaining Bugs
 
 - No bugs remaining
@@ -113,32 +115,10 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
-### Forking the GitHub Repository
-
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
-
-
 
 ```
-git clone  https://samakinbile.github.io/Hangman/
+The live link can be found here - https://samakinbile.github.io/Hangman/
 ```
-
-1. Press Enter. Your local clone will be created.
-
-```
-$ git clone  https://samakinbile.github.io/Hangman/
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
-
-
 
 ## Credits
 

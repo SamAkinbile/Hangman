@@ -98,8 +98,8 @@ Display spaces "(_)" to represent each letter in the chosen word.
 - No bugs remaining
   
   ### Validator Testing
-  - PEP8
-- 1. No errors were returned from [testing](https://pep8ci.herokuapp.com/#)
+- PEP8
+- No errors were returned from [testing](https://pep8ci.herokuapp.com/#)
 
 ## Deployment
 

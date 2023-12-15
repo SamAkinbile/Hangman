@@ -6,7 +6,7 @@
 
 - Uncover the word by guessing letters testing your deductive abilities in an exciting and suspenseful game.
 
-<h2 align="center">What to expect</h2>
+<h2 align="center">How to play</h2>
 
 <p align="center">
 <img src="hangmanimages/Webcapture_flowchart_.jpeg" />
@@ -116,9 +116,9 @@ The project was deployed to GitHub Pages using the following steps...
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
 
-```
+
 The live link can be found here - https://samakinbile.github.io/Hangman/
-```
+
 
 ## Credits
 

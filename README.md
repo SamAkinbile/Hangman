@@ -89,9 +89,15 @@ Display spaces "(_)" to represent each letter in the chosen word.
 
 ###  Testing
 
-- The game was tested on github. I test the hangman guess game by using python3 main.py
+- Pass the code through a PEP8 linter and confirmed: All clear, no errors found
+- I test on my local terminal.
+### Remaining Bugs
 
-
+- No bugs remaining
+  
+  ### Validator Testing
+  - PEP8
+- 1. No errors were returned from [testing](https://pep8ci.herokuapp.com/#)
 
 ## Deployment
 
@@ -115,20 +121,13 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
-### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
 git clone  https://samakinbile.github.io/Hangman/
 ```
 
-7. Press Enter. Your local clone will be created.
+1. Press Enter. Your local clone will be created.
 
 ```
 $ git clone  https://samakinbile.github.io/Hangman/
@@ -139,7 +138,7 @@ $ git clone  https://samakinbile.github.io/Hangman/
 > Unpacking objects: 100% (10/10), done.
 ```
 
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
 
 ## Credits
 
